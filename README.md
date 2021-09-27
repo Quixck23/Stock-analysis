@@ -38,8 +38,7 @@
         Cells(4 + i, 2).Value = totalVolume
         Cells(4 + i, 3).Value = endingPrice / StartingPrice - 1
         
-![VBA_Challenge_2017 Module 1](https://user-images.githubusercontent.com/88118587/134940254-d385bd75-a385-4ab6-9001-c0426b9c7808.png)
-![VBA_Challenge_2018Module1](https://user-images.githubusercontent.com/88118587/134940236-ca289a9d-2cf1-461f-b1be-7ef498132713.png)
+![VBA_Challenge2017Module1](https://user-images.githubusercontent.com/88118587/134945761-e7639ea2-af2d-42f2-825e-348100391ae6.PNG)![VBA_Challenge2018Module1](https://user-images.githubusercontent.com/88118587/134945769-f6113d35-e8ae-4de7-995e-5d77b9cfa094.PNG)
 
         
    ***On our improved refactored Analysis for Module 2***     
