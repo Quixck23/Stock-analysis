@@ -3,7 +3,7 @@
 ## Overview of Project
    After the analysis of Steve's Parennts DAQO New Energy Corp (DQ) stock and also other 12 stocks in the look for a better alternative. We have decided to analize the whole market but in order for us to do it. We need to refactor our code so we can excute the analisys on a timely manner. 
    
-  ### Results
+## Results
   ***On our first Analysis for Module 1***
    
     '3b)Activate the data worksheet.
@@ -71,6 +71,19 @@
 
             '3d Increase the tickerIndex.
          Next i
+         
+![VBA_Challenge2018](https://user-images.githubusercontent.com/88118587/134946922-c1d05f6f-13df-487b-bedb-e5bf5e7b9151.PNG)
+![VBA_Challenge2017](https://user-images.githubusercontent.com/88118587/134946933-8d0565bd-ad6a-43f6-8933-15205228f31a.PNG)
+   
+***Comparison***
+   From 2017, in which most of the stocks were on the green until 2018, the stocks researched took a deep dive.
+   DQ had as much as 3 times more volume traded than the previous year but its price value went down %62.9.
+   -Since most of these stocks are green energy companies, it possibly could have been a shift in the market or a new technology was discovered. The only stock that remained on the positive was ENPH and RUN; This could be due to a Technology patent that made them resilient to market changes. Either ENPH or RUN would be a much better option for Steven's Parents.
+
+ ## Summary
+   1. Advantages of refactoring our code improve the time and we could use for future stock analysis with a larger data. 
+   2. Our pros of refactoring have a more useful code to be used even in other templates beside stocks. Cons it could be time consuming but its worth the work.
+  
             
         
    
