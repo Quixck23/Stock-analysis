@@ -38,9 +38,41 @@
         Cells(4 + i, 2).Value = totalVolume
         Cells(4 + i, 3).Value = endingPrice / StartingPrice - 1
         
+![VBA_Challenge_2017 Module 1](https://user-images.githubusercontent.com/88118587/134940254-d385bd75-a385-4ab6-9001-c0426b9c7808.png)
+![VBA_Challenge_2018Module1](https://user-images.githubusercontent.com/88118587/134940236-ca289a9d-2cf1-461f-b1be-7ef498132713.png)
+
+        
    ***On our improved refactored Analysis for Module 2***     
    
-   
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/88118587/134929514-57539333-80fc-4f7a-885a-63eb1f3752de.png)
+   ''2a) Create a for loop to initialize the tickerVolumes to zero.
+           For j = 2 To RowCount
+            TickerVolumes = 0
+           
+    ''2b) Loop over all the rows in the spreadsheet.
+      
+        '3a) Increase volume for current ticker
+        TickerVolumes = TickerVolumes + Range("H" & j).Value
+      
+        
+        '3b) Check if the current row is the first row with the selected tickerIndex.
+        'If  Then
+        If TickerIndex = Range("A" & j - 1).Value Then
+        Else
+        TickerStartingPrices = Range("F" & j).Value
+        End If
+          
+        '3c) check if the current row is the last row with the selected ticker
+         'If the next rowâ€™s ticker doesnâ€™t match, increase the tickerIndex.
+        'If  Then
+            If TickerIndex = Range("A" & j + 1).Value Then
+        Else
+        TickerEndingPrices = Range("F" & j).Value
+        End If
+         Next j
 
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/88118587/134931529-56cc7afb-6dc7-4c9a-a076-f095349b95d2.png)
+            '3d Increase the tickerIndex.
+         Next i
+            
+        
+   
+   
